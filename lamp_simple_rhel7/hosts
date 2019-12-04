@@ -1,7 +1,7 @@
 [webservers]
-10.75.12.254
+webserver.local
 
 [dbservers]
-10.75.12.254
+dbserver.local
 
 
