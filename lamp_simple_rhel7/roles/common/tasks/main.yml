@@ -2,11 +2,11 @@
 # This playbook contains common plays that will be run on all nodes.
 
 - name: Install ntp
-  yum: name=ntp state=present
+  package: name=ntp state=present
   tags: ntp
 
 - name: Install common dependencies
-  yum: name={{ item }} state=installed
+  package: name={{ item }} state=installed
   with_items:
    - libselinux-python
    - libsemanage-python
