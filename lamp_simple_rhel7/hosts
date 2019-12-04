@@ -1,7 +1,7 @@
 [webservers]
-localhost
+10.75.12.254
 
 [dbservers]
-localhost
+10.75.12.254
 
 
