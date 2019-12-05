@@ -1,3 +1,6 @@
-[local]
+[webservers]
+10.75.12.254
+
+[dbservers]
 10.75.12.254
 
